@@ -1,0 +1,19 @@
+body{
+    color: blanchedalmond;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+li{
+    display:inline;
+    float: right;
+}
+
+h1{
+    float: left;
+}
