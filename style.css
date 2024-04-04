@@ -2,29 +2,30 @@ body{
     color: blanchedalmond;
 
 }
-ul{
+nav{
+    background-color: beige;
+}
+
+nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    overflow: hidden;
+}
+nav a{
+    display:block;
+    width: 60px;
 }
 
-li{
-    display:inline;
-    float: right;
+.nav-left ul li{
+    float:left;
 }
 
-h1{
-    float: left;
+.nav-right ul li{
+    float:right;
 }
 
-.image{
-    display: flex;
-    justify-content: space-between;
-}
 
-.container {
-    position: relative;
-    width: 400px;
-    height: 300px;
-}
+
+
+
