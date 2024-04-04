@@ -189,6 +189,12 @@ color: white;
 font-weight: 900;
     
 }
+.footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
 
 
 
