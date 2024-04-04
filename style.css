@@ -133,6 +133,27 @@ body{
     background-color: rgba(7, 7, 7, 0.5); 
 }
 
+.mid-image h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    margin-left: 1%;
+}
+
+.mid-image button{
+    width: 7%;
+    height: 9vh;
+    border: 1px solid rgb(16, 16, 16);
+    background-color: rgb(6, 6, 56);
+    color:white;
+    margin-left: 1%;
+    margin-top: 1%;
+    border-radius: 20px; 
+    padding: 10px;
+    font-weight: 800;
+
+}
+
 .container-places{
     display:flex;
     justify-content: space-between;
@@ -143,7 +164,7 @@ body{
 
 .container-places .ima{
     width:400px;
-    min-height: 200px;
+    max-height: 300px;
     position: relative;
 }
 
@@ -189,12 +210,33 @@ color: white;
 font-weight: 900;
     
 }
-.footer{
+
+.few{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.style{
     display:flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
 }
 
+.tools{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
 
+.footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
 
